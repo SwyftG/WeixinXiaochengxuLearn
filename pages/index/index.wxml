@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class='index_container'>
+<text class='index_title'>作者</text>
+<text class='index_content'>皮克啪的铲屎官</text>
+<text class='index_title'>个人主页</text>
+<text class='index_content'>https://peekpa.tech</text>
+<text class='index_title'>公众号</text>
+<text class='index_content' >皮克啪的铲屎官</text>
+<text class='index_content' >PeekpaCodeWorld</text>
+<text class='index_des' >点击图片即可保存即可扫描</text>
+<image class='index_qr' bindtap='openImage' src="../img/qrcode.jpg"/>
+<button class='index_button' bindtap='gotoDaily'>Daily Project</button>
+<button class='index_button' bindtap='gotoImage'>Search Poster</button>    
+</view>

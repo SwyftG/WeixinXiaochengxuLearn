@@ -1,0 +1,5 @@
+/* pages/detail/detail.wxss */
+.detail_webview {
+  height: 50%;
+  width: 50%;
+}

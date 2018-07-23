@@ -1,0 +1,26 @@
+/* pages/dailylist/dailylist.wxss */
+.list_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.list_data {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.list_item {
+  margin-top: 10px
+}

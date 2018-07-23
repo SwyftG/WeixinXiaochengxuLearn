@@ -1,0 +1,14 @@
+<!--pages/dailylist/dailylist.wxml-->
+<view class='list_container'>
+<block wx:if="{{hasData==true}}">
+<text>1024 Daily: {{curTime}}</text>
+<view class='list_data'>
+<block wx:for="{{dailyData}}" wx:key="unique">
+<text class="list_item" bindtap='gotoDetail' data-url="{{item.post_url}}">{{index + 1}}: {{item.post_title}}</text>
+</block>
+</view>
+</block>
+<block wx:else>
+<text>加载中。。。</text>
+</block>
+</view>
